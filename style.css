@@ -1,0 +1,119 @@
+
+.button-container {
+  text-align: right;
+  margin-right: 20px; /* optional: to add some space from the right edge */
+}
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-button:hover {
+  background-color: #0056b3;
+}
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #080101;
+    color: rgba(255, 255, 255, 0.959);
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+  }
+  
+  .search-bar {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .search-bar input[type="text"] {
+    width: 70%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  .search-bar button[type="submit"] {
+    width: 30%;
+    padding: 0.5em;
+    background-color: #242424;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-options {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filter-options ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .filter-options li {
+    margin-bottom: 1em;
+  }
+  
+  .filter-options label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  .filter-options select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+  
+  .notes-container {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+  }
+  
+  .note {
+    background-color: #fff;
+    padding: 1em;
+    border: 1
+  
+  }

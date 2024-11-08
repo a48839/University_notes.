@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <div class="button-container">
+      <button class="my-button"></button>
+  </div>
+  
+  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+    <link rel="stylesheet" href="database.SQL">
+    <link rel="stylesheet" href="security.php">
+    <title>Centered Labels and Titles and button</title>
+    <style>
+        /* Centering text for labels and titles */
+        .centered {
+            text-align: center;
+        }
+
+        /* Optional: Centering the whole page content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 260vh;
+            margin: 0;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+  <form action="login.php" method="POST">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+    <button type="submit">Login</button>
+</form>
+  <i class="fa-solid fa-graduation-cap fa-10x"></i>
+  <header>
+    <h1 class="centered">Notes Search</h1>
+  </header>
+  <main>
+    <section class="search-bar">
+      <form>
+        
+        <button  class="centered" id="search-button">Search</button>
+      </form>
+    </section>
+    <section class="filter-options">
+      <h2 class="centered">Filter by:</h2>
+      <ul>
+        <li>
+          <label for="year-select"  class="centered">Year:</label>
+          <select id="year-select">
+            <option value="">Select Year</option>
+            <option value="1st">1st</option>
+            <option value="2nd">2nd</option>
+            <option value="3rd">3rd</option>
+            <option value="4th">4th</option>
+            
+            
+            <!--  year of cosurses here -->
+          </select>
+        </li>
+        <li>
+          <label for="university-select" class="centered">University:</label>
+          <select id="university-select">
+            <option value="">Select University</option>
+            <option value=" Delhi University">Delhi University</option>
+            
+            <option value=" Babu Banarsi Das University">Babu Banarsi Das University</option>
+            <option value="Ramshwaroop University">Ramshwaroop University University</option>
+            <option value="Goel University">Goel University University</option>
+            <option value="Vishumber Nath University">Vishumber Nath University</option>
+            
+            <!-- Add more universities here -->
+          </select>
+        </li>
+        <li>
+          <label for="course-select" class="centered">Course:</label>
+          <select id="course-select">
+            <option value="">Select Course</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="Bsc">Bsc</option>
+            <option value="BBA">BBA</option>
+            <option value="MBA">MBA</option>
+            <option value="M.Tech">M.tech</option>
+            
+            <!-- Add more courses here -->
+          </select>
+        </li>
+        <li>
+          <label for="subject-select" class="centered">Subject:</label>
+          <select id="subject-select">
+            <option value="">Select Subject</option>
+            <option value="Mathematics">Mathematics</option>
+            <option value="Physics+Lab">Physics</option>
+            <option value="Chemisrty+Lab">Chemisrty+Lab</option>
+            <option value="Mechanics+Lab">Mechanics+Lab</option>
+            <option value="C Language+C.Lab">C Language+C.Lab</option>
+            <option value="Python+Lab">Python+Lab</option>
+            <option value="Java+Lab">Java+Lab</option>
+            <option value="C++ +Lab">C++ +Lab</option>
+           
+            <!-- Add more subjects here -->
+          </select>
+        </li>
+      </ul>
+    </section>
+    <section class="notes-container">
+      <h2 class="centered">Notes:</h2>
+      <div class="notes-grid">
+        <!-- Notes will be displayed here -->
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Canvas as Image</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="1200" height="1000" style="border:1px solid #000000;"></canvas>
+    <br>
+    <button id="saveBtn">Save as Image</button>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
+
+
+
